@@ -30,8 +30,8 @@ def set_cron_job(
     """
 
     # edit crontab
-    _python = '~/chrome_history_extractor/.venv/bin/python3'
-    _command = 'chrome_history_extractor extract-history ' \
+    _python = '~/chrome_history_extractor/.venv/bin/chrome_history_extractor'
+    _command = ' extract-history ' \
                f'-h {smtp_host} ' \
                f'-p {smtp_port} ' \
                f'-u {username} ' \
